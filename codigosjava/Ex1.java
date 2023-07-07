@@ -11,10 +11,10 @@ public class Ex1 {
         String fraseInvertida = "";
 
         for(int i = palavras.length-1; i>=0; i--){
-            fraseInvertida += palavras[i];
+            fraseInvertida += palavras[i]+" ";
         }
 
-        System.out.println(fraseInvertida.trim());
+        System.out.println(fraseInvertida);
 
         entrada.close();
 
