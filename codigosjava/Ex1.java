@@ -10,7 +10,7 @@ public class Ex1 {
         String[] palavras = frase.split(" ");
         String fraseInvertida = "";
 
-        for(int i = palavras.length-1; i>=0; i--){
+        for(int i = palavras.length-1; i>=0; i--){ //laço for com index é igual
             fraseInvertida += palavras[i]+" ";
         }
 
