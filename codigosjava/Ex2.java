@@ -15,6 +15,7 @@ public class Ex2 {
 		}
 		
 		System.out.println(fraseSaida); //imprime a frase da saida
+		entra.close(); // fecha o scanner
 	}
 
 }
