@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class Ex3 {
 
 	public static void main(String[] args) {
-		String palavra = "babad";
+		Scanner entra = new Scanner(System.in);
+		String palavra = entra.nextLine();
 		String palindromo = "";
         int tamanho = palavra.length()-1;
         

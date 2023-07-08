@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class Ex2 {
 
 	public static void main(String[] args) {
-		String frase = "Hello, World!";
+		Scanner entra = new Scanner(System.in);
+		String frase = entra.nextLine();
 		String fraseSaida = "";
 		
 		for(int i = 0; i < frase.length(); i++) { //percorre os indices
