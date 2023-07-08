@@ -21,7 +21,7 @@ public class Ex3 {
             }
         	}
         }
-		
+		entrada.close(); // fecha o Scanner
 	}
 
 }
